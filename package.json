@@ -1,0 +1,37 @@
+{
+    "name": "testapi",
+    "version": "1.0.0",
+    "description": "this is a test apis which will help in various functionality in testing the frontend",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/meetmoradiya/testapi.git"
+    },
+    "keywords": [
+        "testapi"
+    ],
+    "author": "meetmoradiya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/meetmoradiya/testapi/issues"
+    },
+    "homepage": "https://github.com/meetmoradiya/testapi#readme",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "crypto": "^1.0.1",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.0.14",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "uuid": "^8.3.2"
+    }
+}
